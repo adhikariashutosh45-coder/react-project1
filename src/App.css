@@ -1,0 +1,64 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.job-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  padding: 30px;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.card {
+  width: 310px;
+  min-height: 350px;
+  flex: 0 0 310px;
+
+  border-radius: 30px;
+  background-color: white;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top .image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 3px;
+  object-fit: contain;
+}
+
+.card .center {
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.applybtn {
+  background-color: rgb(227, 220, 220);
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
